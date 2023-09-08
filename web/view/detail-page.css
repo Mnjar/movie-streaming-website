@@ -1,0 +1,333 @@
+body
+{
+    background-color: black;
+    margin: 0;
+}
+
+.jetflix
+{
+    font-family: 'Lava Kannada';
+    font-style: normal;
+    display: flex;
+    
+    justify-content: flex-start;
+    margin: 0;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 65px;
+    transform: translateY(-50%);
+    color: #FF0000;
+
+}
+
+nav
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: calc(95% + -5px);
+}
+
+
+
+.nav-menu a
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-menu ul
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    left: 17%;
+}
+
+.nav-menu li
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    list-style-type: none;
+    color: #E4E4E4;
+    margin-left: 20px;
+
+    
+}
+.nav-profile li
+{
+    display: flex;
+}
+
+.nav-profile
+{
+    display: flex;
+    Width: 22px;
+    Height: 22px;
+    justify-content: flex-end;
+}
+
+.nav-profile img
+{
+    justify-content: flex-end;
+    Width: 22px;
+    Height: 22px;
+    margin: 10px;
+}
+
+.poster
+{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.poster img
+{
+    width: 28%;
+    height: auto;
+    left: 4.3%;
+    margin-left: 60px
+}
+
+.movie-info
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.movie-title
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 75px;
+    color: white;
+}
+
+.movie-title h1
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 10px;
+
+    color: white;
+}
+
+.detail
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-top: -25px;
+    margin-bottom: 24px;
+
+}
+
+.detail h4
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5F5F5F;
+    margin-right: 10px;
+}
+
+.synopsis
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -25px;
+    color: white;
+    width: 60%;
+    height: auto;
+}
+.synopsis h2
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 18px;
+    margin-left: 25px;
+    margin-bottom: -5px;
+}
+
+.synopsis p
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;    
+    margin-left: 25px;
+}
+
+.ccg
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 75px;
+}
+
+.ccg-list
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.ccg-info
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.ccg h4 
+{
+    margin-right: 10px;
+    margin-bottom: -10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #5F5F5F;
+
+}
+
+.episode-list
+{
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin-left: 75px;
+    margin-top: 50px;
+    width: calc(100% - 180px);
+}
+
+.episode
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    background-color: #202020;;
+    color: white;
+    width: 360px;
+    height: 435px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.episode h4{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 0;
+
+
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.eps h2
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-left: 7.2%;
+    margin-bottom: -30px;
+}
+
+.episode p
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.episode h5
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.play-button
+{
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.episode img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    border-radius: 10px;
+}
+
+.episode-list-inner
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    margin-right: -2570px;
+}
+
+.poster
+{
+    overflow: hidden;
+}
