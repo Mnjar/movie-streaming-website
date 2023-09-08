@@ -1,0 +1,323 @@
+body
+{
+    background-color: black;
+    margin: 0;
+}
+
+.jetflix
+{
+    font-family: 'Lava Kannada';
+    font-style: normal;
+    display: flex;
+    
+    justify-content: flex-start;
+    margin: 0;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 65px;
+    transform: translateY(-50%);
+    color: #FF0000;
+
+}
+
+nav
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: calc(95% + -5px);
+}
+
+
+
+.nav-menu a
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-menu ul
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    left: 17%;
+}
+
+.nav-menu li
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    list-style-type: none;
+    color: #E4E4E4;
+    margin-left: 20px;
+
+    
+}
+.nav-profile li
+{
+    display: flex;
+}
+
+.nav-profile
+{
+    display: flex;
+    Width: 22px;
+    Height: 22px;
+    justify-content: flex-end;
+}
+
+.nav-profile img
+{
+    justify-content: flex-end;
+    Width: 22px;
+    Height: 22px;
+    margin: 10px;
+}
+
+.top-movies
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-movies-list
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.movie-name
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 785px;
+    top: -55px;
+    left: 263px;
+}
+
+.movie-details
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -231px;
+    left: 170px;
+}
+
+.list
+{
+    display: flex;
+    background-color: #202020;
+    align-items: center;
+    padding: 10px;
+    width: 1152px;
+    height: 313px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.poster
+{
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-right: -175px;
+}
+
+.poster img
+{
+    display: flex;
+    width: 205px;
+    justify-content: flex-start;
+    height: auto;
+    margin-left: 2px
+}
+
+.top-movies h2
+{
+    display: flex;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    justify-content: center;
+
+
+    color: #FFFFFF;
+}
+
+.movie-name h3
+{
+    position: relative;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #FFFFFF;
+    top: -25px;
+}
+
+.movie-name h4
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.top-movies h2 span
+{
+    color: red;
+    margin: 0 10px;
+}
+
+.top-movie-list h4
+{
+    margin: 0;
+    position: relative;
+    top: -20px;
+
+}
+.top-movie-list p
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.ccg
+{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    bottom: -30px;
+}
+
+.ccg-list
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.ccg-info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ccg-list h4
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5F5F5F;
+    margin-bottom: 14px;
+}
+.ccg-info h4
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5F5F5F;
+    margin-bottom: 14px;
+}
+
+.movie-rank
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    left: 840px;
+    bottom: -95px;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.movie-rank h3
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.play-download
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 285px;
+    left: 690px;
+    width: 200px;
+}
+
+.button-link
+{
+    text-decoration: none;
+}
+
+.download, .play
+{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 101px;
+}
+
+.download
+{
+    margin-right: 10px;
+}
+
+.play
+{
+    margin-left: 10px;
+}

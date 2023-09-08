@@ -1,0 +1,454 @@
+body
+{
+    background-color: black;
+    margin: 0;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    bottom: -42px;
+    left: 0;
+    right: 0;
+    height: 300px;  
+    background: linear-gradient(180deg, #000000 3.72%, #000000 34.96%, rgba(0, 0, 0, 0.62) 63.68%, rgba(0, 0, 0, 0.06) 84.05%);
+    transform: rotate(180deg);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: calc(95% + -5px);
+}
+
+.nav-jetflix
+{
+    font-family: 'Lava Kannada';
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    margin: 0;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF0000;
+}
+
+.nav-login button {
+    background-color: #e50914;
+    border: none;
+    color: white;
+    padding: 13px 23px;
+    border-radius: 8px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/web/asset/Background.png');
+    opacity: 0.4;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    left: 118px;
+    top: 150px;
+}
+
+
+.signup-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: white;  
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.035em;
+
+}
+
+.signup-button {
+    position: relative;
+    font-family: 'Helvetica';
+    font-style: normal;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    top: -50px;
+    cursor: pointer;
+}
+
+.offer
+{
+    position: absolute;
+    width: 1030px;
+    height: 41px;
+    left: calc(50% - 1030px/2);
+    top: 705px;
+}
+
+.offer-text
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+
+.film-logo img
+{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 215px;
+    top: 850px;
+}
+
+.film-text
+{
+    position: absolute;
+    width: 422px;
+    height: 28px;
+    left: 44px;
+    top: 910px;
+}
+
+.film-caption
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: -0.035em;
+}
+
+.price
+{
+    position: absolute;
+    width: 431px;
+    height: 40px;
+    left: 42px;
+    top: 960px;
+}
+
+.price-text
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 102.49%;
+    /* or 20px */
+
+    text-align: center;
+    letter-spacing: 0.015em;
+
+    color: #C7C7C7;
+}
+
+.family-logo img
+{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 682px;
+    top: 850px;
+}
+
+.family-text
+{
+    position: absolute;
+    width: 422px;
+    height: 28px;
+    left: 505px;
+    top: 910px;
+}
+
+.family-caption
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: -0.035em;
+}
+
+.children
+{
+    position: absolute;
+    width: 431px;
+    height: 60px;
+    left: 500px;
+    top: 960px;
+}
+
+.children-text
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #C7C7C7;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: 0.015em;
+}
+
+.television-logo img
+{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 1133px;
+    top: 850px;
+}
+
+.television-text
+{
+    position: absolute;
+    width: 422px;
+    height: 28px;
+    left: 965px;
+    top: 910px;
+}
+
+.television-caption
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: -0.035em;
+}
+
+.streaming
+{
+    position: absolute;
+    width: 431px;
+    height: 60px;
+    left: 960px;
+    top: 960px;
+}
+
+.streaming-text
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #C7C7C7;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: 0.015em;
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-text
+{
+    position: absolute;
+    width: 107px;
+    height: 16px;
+    left: 660px;
+    top: 1190px;
+}
+
+.foot-caption
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #CFCFCF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 102.49%;
+    text-align: center;
+    letter-spacing: -0.035em;
+
+}
+
+.foot-logo
+{
+    position: absolute;
+    width: 210px;
+    height: 33px;
+    left: 615px;
+    top: 1285px;
+}
+
+.facebook img
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -15px;
+    top: -45px;
+}
+.instagram img
+{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+
+    left: 48px;
+    top: -45px;
+}
+.twitter img
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 111px;
+    top: -45px;
+}
+.youtube img
+{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 174px;
+    top: -45px;
+}
+
+.foot-font
+{
+    position: absolute;
+    width: 261px;
+    height: 16px;
+    left: 583px;
+    top: 1285px;
+}
+
+.foot-copyright
+{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .content
+    {
+        margin-top: 120px;
+    }
+
+    .signup-text
+    {
+        font-size: 28px;
+    }
+
+    .signup-button
+    {
+        font-size: 20px;
+    }
+
+    .film-logo,
+    .family-logo,
+    .television-logo
+    {
+        margin-top: 40px;
+    }
+
+    .television-caption
+    {
+        font-size: 20px;
+    }
+
+    .foot-logo img {
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .content
+    {
+        margin-top: 80px;
+    }
+
+    .signup-text
+    {
+        font-size: 24px;
+        line-height: 66px;
+    }
+
+    .signup-button
+    {
+        font-size: 18px;
+    }
+
+    .film-logo,
+    .family-logo,
+    .television-logo
+    {
+        margin-top: 20px;
+    }
+
+    .film-caption,
+    .television-caption
+    {
+        font-size: 16px;
+    }
+
+    .foot-logo img
+    {
+        width: 16px;
+    }
+}
